@@ -1,0 +1,23 @@
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="password"],
+input[type="search"],
+textarea {
+	-webkit-appearance: none;
+	outline: none;
+	resize: none;
+	padding: 0.45em 0.5em;
+	line-height:1.3em;
+}
+button::-moz-focus-inner {
+	border: 0;
+}
+button:focus,
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+textarea:focus {
+	outline: none;
+}
