@@ -429,7 +429,7 @@ if ( !function_exists( 'themerex_template_portfolio_output' ) ) {
 											echo '<div class="post_buttons">';
 										if ($post_data['post_link'] != '' && function_exists('themerex_sc_button')) {
 											?>
-											<div class="post_button"><?php echo themerex_sc_button( array('size'=>"small", 'link'=>esc_url($post_data['post_link'])), __('LEARN MORE', 'education')); ?></div>
+											<div class="post_button"><?php echo themerex_sc_button( array('size'=>"small", 'link'=>esc_url($post_data['post_link'])), __('APRENDE MÁS', 'education')); ?></div>
 											<?php
 										}
 										if ($product_link != '' && function_exists('themerex_sc_button')) {
