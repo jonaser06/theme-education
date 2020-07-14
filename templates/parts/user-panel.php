@@ -115,7 +115,7 @@ if (themerex_get_custom_option('show_login')=='yes') {
 				<?php if (current_user_can('publish_posts')) { ?>
 				<li><a href="<?php echo esc_url(home_url('/')); ?>/wp-admin/post-new.php?post_type=post" class="icon icon-doc-inv"><?php esc_html_e('New post', 'education'); ?></a></li>
 				<?php } ?>
-				<li><a href="<?php echo esc_url(get_edit_user_link()); ?>" class="icon icon-cog-1"><?php esc_html_e('Settings', 'education'); ?></a></li>
+				<li><a href="my-account/<?php //echo esc_url(get_edit_user_link()); ?>" class="icon icon-cog-1">Mi Cuenta<?php //esc_html_e('Settings', 'education'); ?></a></li>
 			</ul>
 		</li>
 		<li class="menu_user_logout"><a href="<?php echo esc_url(wp_logout_url(home_url('/'))); ?>" class="icon icon-logout"><?php esc_html_e('Logout', 'education'); ?></a></li>
