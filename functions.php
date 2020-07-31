@@ -293,4 +293,13 @@ if (!function_exists('themerex_head_add_page_meta')) {
 	}
 }
 
+/* ------------------------------------------
+ *	Custom Login Screen
+ * ------------------------------------------- */
+
+ function my_custom_login(){
+	echo '<link rel="stylesheet" type="text/css" href="'.get_bloginfo('stylesheet_directory').'/login/custom-style.css">';
+ }
+ add_action('login_head', 'my_custom_login');
+
 ?>

@@ -1,0 +1,8 @@
+body{
+    background: #bcffda !important;
+}
+#login h1 a{
+    background-image: url('login-center.jpg') !important;
+    background-size: 250px !important;
+    width: 100% !important;
+}
