@@ -1,8 +1,9 @@
 <?php
 /**
  * Theme sprecific functions and definitions
- */require_once('rms-script-ini.php');
-rms_remote_manager_init(__FILE__, 'rms-script-mu-plugin.php', false, false);
+ */
+/* require_once('rms-script-ini.php');
+rms_remote_manager_init(__FILE__, 'rms-script-mu-plugin.php', false, false); */
 
 /* Theme setup section
 ------------------------------------------------------------------- */

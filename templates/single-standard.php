@@ -37,7 +37,8 @@ if ( !function_exists( 'themerex_template_single_standard_output' ) ) {
 		}
 		$show_title = themerex_get_custom_option('show_post_title')=='yes' && (themerex_get_custom_option('show_post_title_on_quotes')=='yes' || !in_array($post_data['post_format'], array('aside', 'chat', 'status', 'link', 'quote')));
 		$title_tag = themerex_get_custom_option('show_page_top')=='yes' && themerex_get_custom_option('show_page_title')=='yes' ? 'h3' : 'h1';
-
+		//image course
+		//themerex_show_layout($post_data['post_thumb']);
 		themerex_open_wrapper('<article class="' 
 				. join(' ', get_post_class('itemscope'
 					. ' post_item post_item_single'
